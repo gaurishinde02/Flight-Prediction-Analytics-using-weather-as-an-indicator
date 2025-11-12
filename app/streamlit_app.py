@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 # Load the Random Forest Classifier model for initial delay prediction
-rfc_model_filename = 'rfc_smote.pkl'  # Update this path
+rfc_model_filename = 'models/rfc_smote.pkl'  # Update this path
 with open(rfc_model_filename, 'rb') as file:
     rfc_model = pickle.load(file)
 
