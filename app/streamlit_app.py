@@ -13,7 +13,7 @@ with open(rfc_model_filename, 'rb') as file:
 
 
 # Load the trained model
-model_filename = 'xgb_new.pkl'  # Update this path if your model is saved in a different location
+model_filename = 'models/xgb_new.pkl'  # Update this path if your model is saved in a different location
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 
