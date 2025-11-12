@@ -17,7 +17,7 @@ model_filename = 'models/xgb_new.pkl'  # Update this path if your model is saved
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 
-encoders_filename = 'label_encoders (1).pkl'
+encoders_filename = 'models/label_encoders_1.pkl'
 with open(encoders_filename, 'rb') as file:
     label_encoders = pickle.load(file)
 
